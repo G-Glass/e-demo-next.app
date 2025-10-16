@@ -11,3 +11,13 @@
   background-clip: text;
   color: transparent;
 }
+.foot {
+  font-weight: bold;
+  margin-bottom: 19px;
+}
+.links {
+  font-weight: 900;
+  border: 2px solid transparent;
+  border-bottom-color: blue;
+  width: 140px;
+}
