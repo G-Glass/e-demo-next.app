@@ -21,7 +21,8 @@
   background-color: whitesmoke;
   padding: 55px 10px;
   text-align: center;
-  min-height: 100vh;
+  position: relative;
+  margin-top: 40px;
 }
 .item {
   background-color: rgba(255, 255, 255, 0.466);

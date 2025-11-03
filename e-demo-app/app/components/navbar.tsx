@@ -28,7 +28,7 @@ export default function Navbar() {
                     <div className={style.item}>Sapatos</div>
                     <div className={style.item}>Vestidos</div>
 
-                    <div className='pt-[60%]'>
+                    <div className='pt-2'>
                         <h1 className={style.edemo}>e-demo</h1>
                         <div>Termos. | privacidade.</div>
                     </div>
