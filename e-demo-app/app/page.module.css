@@ -1,0 +1,13 @@
+.Main {
+    min-height: 100vh;
+    display: grid;
+    grid-template: auto 1fr auto / auto;
+}
+
+.Principal {
+    padding: 75px 5px;
+}
+
+.customfooter {
+    background-color: white;
+}

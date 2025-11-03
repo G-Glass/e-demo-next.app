@@ -1,15 +1,31 @@
-.Navbar {
+.bar {
     background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    display: grid;
+    place-items: center;
+    grid-template: 1fr / repeat(3, 1fr);
+    top: 0;
+    position: fixed;
+    width: 100%;
+
 }
 
-.bar {
+.edemo {
   font-size: 1.35rem; /* Equivalente a text-4xl */
   font-weight: 600;
   background: linear-gradient(to right, #1f1a7c, rgb(48, 3, 248));
   -webkit-background-clip: text; /* Para compatibilidade com navegadores WebKit */
   background-clip: text;
   color: transparent;
+}
+.Menu {
+  background-color: whitesmoke;
+  padding: 55px 10px;
+  text-align: center;
+  min-height: 100vh;
+}
+.item {
+  background-color: rgba(255, 255, 255, 0.466);
+  border-radius: 10px;
+  margin: 2px;
+  padding: 15px;
 }
