@@ -21,9 +21,9 @@ export default function Navbar() {
             <div className={style.submenu}>
                 {isMenuOpen &&
                     <div className={style.Menu}>
-                        <div className='flex items-center justify-around  p-8 flex-rows '>
+                        <div className='flex items-center justify-around  p-8 flex-col '>
                             <h1 className={`${style.categoria}`}>Categoria</h1>
-                            <div className='w-[40%] bg-slate-300 rounded-[10] text-right pr-2 border-1'>
+                            <div className='w-[70%] bg-slate-300 rounded-[10] text-right pr-2 border-1'>
                                 <i className="bi bi-search"></i>
                             </div>
                         </div>
