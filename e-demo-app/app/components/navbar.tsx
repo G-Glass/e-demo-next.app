@@ -10,7 +10,7 @@ export default function Navbar() {
     return (
         <div className={style.Navbar}>
             <div className={style.bar}>
-                <h2 className={style.edemo}>e-demo</h2>
+                <h2 className={style.edemo}>e-build</h2>
                 <i className="bi bi-bag-check-fill text-white bg-slate-950 p-1 text-xl"></i>
                 <div>
                     <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
@@ -21,7 +21,12 @@ export default function Navbar() {
             <div className={style.submenu}>
                 {isMenuOpen &&
                     <div className={style.Menu}>
-                        <h1 className='p-4 text-xl text-blue-900'>Categoria</h1>
+                        <div className='flex items-center justify-around  p-8 flex-rows '>
+                            <h1 className={`${style.categoria}`}>Categoria</h1>
+                            <div className='w-50 bg-slate-300 rounded-[10] text-right pr-2 border-1'>
+                                <i className="bi bi-search"></i>
+                            </div>
+                        </div>
                         <div className={style.item}>Camiste</div>
                         <div className={style.item}>Camisa</div>
                         <div className={style.item}>Calças</div>
@@ -29,8 +34,8 @@ export default function Navbar() {
                         <div className={style.item}>Sapatos</div>
                         <div className={style.item}>Vestidos</div>
                         <div className='pt-2'>
-                            <h1 className={style.edemo}>e-demo</h1>
-                            <div>Termos. | privacidade.</div>
+                            <h1 className={style.edemo}>e-build</h1>
+                            <div className={`${style.termo} p-2`} >Termos. | privacidade.</div>
                         </div>
                     </div>
                 }

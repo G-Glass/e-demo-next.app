@@ -1,0 +1,13 @@
+
+
+
+
+
+.edemo {
+  font-size: 1.35rem; /* Equivalente a text-4xl */
+  font-weight: 600;
+  background: linear-gradient(to right, #1f1a7c, rgb(48, 3, 248));
+  -webkit-background-clip: text; /* Para compatibilidade com navegadores WebKit */
+  background-clip: text;
+  color: transparent;
+}
