@@ -12,12 +12,14 @@ export default function Navbar() {
             <div className={style.bar}>
                 <h2 className={style.edemo}>e-demo</h2>
                 <i className="bi bi-bag-check-fill text-white bg-slate-950 p-1 text-xl"></i>
-                <div>
+                <div className={style.Abrirmenu}>
                     <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
                         {isMenuOpen ? (<i className="bi bi-x-lg text-xls"></i>):(<i className="bi bi-list"></i>)}
                     </button>
                 </div>
+                <div className=' bi bi-person-circle font-bold text-2xl text-blue-700  '></div>
             </div>
+            
             <div className={style.submenu}>
                 {isMenuOpen &&
                     <div className={style.Menu}>
