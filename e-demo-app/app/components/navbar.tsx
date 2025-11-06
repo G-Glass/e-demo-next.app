@@ -1,6 +1,8 @@
 "use client"
 import { useState } from 'react'
 import style from './navbar.module.css'
+import Login from './login';
+import Link from 'next/link';
 export default function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -17,7 +19,9 @@ export default function Navbar() {
                         {isMenuOpen ? (<i className="bi bi-x-lg text-xls"></i>):(<i className="bi bi-list"></i>)}
                     </button>
                 </div>
-                <div className=' bi bi-person-circle font-bold text-2xl text-blue-700  '></div>
+                <Link href={"/login"}>
+                    <div className=' bi bi-person-circle font-bold text-2xl text-blue-700  '></div>
+                </Link>
             </div>
             
             <div className={style.submenu}>
