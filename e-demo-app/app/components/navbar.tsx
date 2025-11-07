@@ -24,21 +24,23 @@ export default function Navbar() {
                 </Link>
             </div>
             
-            <div className={style.submenu}>
+            <div className={`${style.submenu}`}>
                 {isMenuOpen &&
-                    <div className={style.Menu}>
-                        <div className='flex items-center justify-around  p-8 flex-col '>
-                            <h1 className={`${style.categoria}`}>Categoria</h1>
-                            <div className='w-[70%] bg-slate-200 rounded-[10] text-right pr-2 border-1'>
-                                <i className="bi bi-search"></i>
-                            </div>
+                    <div className={`${style.Menu} shadow-sm`}>
+                        <div className='flex items-center justify-around  p-8 flex-col  '>
+                            <h1 className={`${style.categoria} text-blue-800`}>Categoria</h1>
+
+                            <form action="" className='flex items-center bg-slate-200 pl-1 pr-1 rounded-[20] border-1 hover:border-hidden shadow-sm'>
+                                <input type="search" name="pesquise" id="procure" className=' pl-1 rounded-[10] border-hidden font-bold' placeholder='Pesquise aqui' />
+                                <button className=' bi bi-search font-bold text-2xl pl-1 m text-green-800  ' ></button>
+                            </form>
                         </div>
-                        <div className={style.item}>Camiste</div>
-                        <div className={style.item}>Camisa</div>
-                        <div className={style.item}>Calças</div>
-                        <div className={style.item}>Calções</div>
-                        <div className={style.item}>Sapatos</div>
-                        <div className={style.item}>Vestidos</div>
+                        <div className="p-3 m-2 bg-slate-100 rounded-[15] shadow-sm font-bold ">Camiste</div>
+                        <div className="p-3 m-2 bg-slate-100 rounded-[15] shadow-sm font-bold ">Camisa</div>
+                        <div className="p-3 m-2 bg-slate-100 rounded-[15] shadow-sm font-bold ">Calças</div>
+                        <div className="p-3 m-2 bg-slate-100 rounded-[15] shadow-sm font-bold ">Calções</div>
+                        <div className="p-3 m-2 bg-slate-100 rounded-[15] shadow-sm font-bold ">Sapatos</div>
+                        <div className="p-3 m-2 bg-slate-100 rounded-[15] shadow-sm font-bold ">Vestidos</div>
                         <div className='pt-2'>
                             <h1 className={style.edemo}>e-demo</h1>
                             <div className={`${style.termo} p-2`} >Termos. | privacidade.</div>
