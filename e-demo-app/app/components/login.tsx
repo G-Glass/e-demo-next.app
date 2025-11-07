@@ -1,7 +1,7 @@
 import { FormEvent } from 'react'
 export default function Login() {
     return (
-        <div className={`min-h-[100vh] w-[100vw] flex items-center justify-center`}>
+        <div className={`min-h-[100vh] w-[100vw] flex items-center justify-center overflow-hidden`}>
             <div className="flex bg-slate-100  p-10 rounded-[10] flex-col shadow-sm  items-center justify-center">
                 <h1 className='text-blue-700 font-bold text-2xl pb-8'>e-demo</h1>
                 <h1 className='font-bold text-xl font-[Times]'>Conecte-se ou Registe-se</h1>
