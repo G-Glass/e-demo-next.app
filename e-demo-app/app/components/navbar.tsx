@@ -16,7 +16,7 @@ export default function Navbar() {
                 <i className="bi bi-bag-check-fill text-white bg-slate-950 p-1 text-xl"></i>
                 <div className={style.Abrirmenu}>
                     <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
-                        {isMenuOpen ? (<i className="bi bi-x-lg text-xls"></i>):(<i className="bi bi-list"></i>)}
+                        {isMenuOpen ? (<i className="bi bi-x-lg text-xl"></i>):(<i className="bi bi-list text-xl"></i>)}
                     </button>
                 </div>
                 <Link href={"/login"}>
