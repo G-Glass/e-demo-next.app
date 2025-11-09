@@ -15,3 +15,8 @@
     background-clip: text;
     color: transparent;
 }
+.caixa {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
