@@ -20,8 +20,9 @@ export default function Navbar() {
                         {isMenuOpen ? (<i className="bi bi-x-lg text-xl"></i>):(<i className="bi bi-list text-xl"></i>)}
                     </button>
                 </div>
-                <Link href={"/login"} className='font-[Times] bg-[#2b2024]  text-white p-[3] rounded-[7]'>
-                  <h2>Login | <span>Registo</span></h2>
+                <Link href={"/login"} className=' flex items-center flex-rows font-[Times] bg-[#2b2024]  text-white  rounded-[10]'>
+                  <h2 className='p-1 bg-[#124e96] rounded-[10]'>Login </h2>
+                  <h2 className='p-1 bg-[#1a273a] rounded-r-[10]'>Registo</h2>
                 </Link>
             </div>
             
