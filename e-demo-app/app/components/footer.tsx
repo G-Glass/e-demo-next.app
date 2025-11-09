@@ -25,6 +25,7 @@ export default function Footer() {
                     <h1>WhatSapp</h1>
                     </a>
                 </div>
+                <h1>Desenvolvido por <a href="https://g-glass.github.io/Perfil/" className='font-bold text-blue-800'>Sataca.Dev</a></h1>
             </div>
         </div>
     )
