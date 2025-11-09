@@ -21,8 +21,8 @@ export default function Navbar() {
                     </button>
                 </div>
                 <Link href={"/login"} className=' flex items-center mr-1 flex-rows font-[Times] bg-[#2b2024]  text-white  rounded-[10]'>
-                  <h2 className='p-1 bg-blue-700 rounded-[10]'>Login </h2>
-                  <h2 className='p-1 bg-[#1a273a] rounded-r-[10]'>Registo</h2>
+                  <h2 className='p-1 bg-blue-700 rounded-[10]'>Entrar </h2>
+                  <h2 className='p-1 bg-[#1a273a] rounded-r-[10]'>Registe</h2>
                 </Link>
             </div>
             
@@ -38,9 +38,7 @@ export default function Navbar() {
                             </form>
                         </div>
                         <div className="p-3 m-2 bg-slate-100 rounded-[15] shadow-sm font-bold ">Camiste</div>
-                        <div className="p-3 m-2 bg-slate-100 rounded-[15] shadow-sm font-bold ">Camisa</div>
                         <div className="p-3 m-2 bg-slate-100 rounded-[15] shadow-sm font-bold ">Calças</div>
-                        <div className="p-3 m-2 bg-slate-100 rounded-[15] shadow-sm font-bold ">Calções</div>
                         <div className="p-3 m-2 bg-slate-100 rounded-[15] shadow-sm font-bold ">Sapatos</div>
                         <div className="p-3 m-2 bg-slate-100 rounded-[15] shadow-sm font-bold ">Vestidos</div>
                         <div className='pt-2'>
