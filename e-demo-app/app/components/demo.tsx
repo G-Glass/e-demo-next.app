@@ -7,21 +7,70 @@ export default function Demo() {
             <h1 className={style.titulo_colorido}>Construa, vende, compre no melhor lugar com melhores preços do mercado</h1>
 
             <div className={style.caixa}>
-                <div className={style.itens}>
-                    <Image src={"./file.svg"} height={105} width={55} alt='logo' />
-                    <h1>Carro</h1>
+
+                <div className={`${style.container} `}>
+                    <div className={`${style.container2} flex items-center flex-col `}>
+                      <Image src={"/globe.svg"} width={75} height={100} alt='logo' className='p-1' />
+                      <div className='p-1 bg-[#3fcf9]'>
+                        <h1>Globe</h1>
+                        <h2 className=' text-white p-1 rounded-[10] bg-[#124e96]'>Ver detalhes</h2>
+                      </div>
+                    </div>
+                    <div className={`${style.container2} flex items-center flex-col `}>
+                      <Image src={"/globe.svg"} width={75} height={100} alt='logo' className='p-1' />
+                      <div className='p-1 bg-[#3fcf9]'>
+                        <h1>Globe</h1>
+                        <h2 className=' text-white p-1 rounded-[10] bg-[#124e96]'>Ver detalhes</h2>
+                      </div>
+                    </div>
                 </div>
-                <div className={style.itens}>
-                    <Image src={"./window.svg"} height={105} width={55} alt='logo' />
-                    <h1>Camisa</h1>
+
+                <div className={`${style.conatiner}`}>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
                 </div>
-                <div className={style.itens}>
-                    <Image src={"./next.svg"} height={105} width={55} alt='logo' />
-                    <h1>Calças</h1>
+
+                <div className={`${style.container}`}>
+                    <div className={`${style.container2} flex items-center flex-col `}>
+                      <Image src={"/globe.svg"} width={75} height={100} alt='logo' className='p-1' />
+                      <div className='p-1 bg-[#3fcf9]'>
+                        <h1>Globe</h1>
+                        <h2 className=' text-white p-1 rounded-[10] bg-[#124e96]'>Ver detalhes</h2>
+                      </div>
+                    </div>
+                    <div className={`${style.container2} flex items-center flex-col `}>
+                      <Image src={"/globe.svg"} width={75} height={100} alt='logo' className='p-1' />
+                      <div className='p-1 bg-[#3fcf9]'>
+                        <h1>Globe</h1>
+                        <h2 className=' text-white p-1 rounded-[10] bg-[#124e96]'>Ver detalhes</h2>
+                      </div>
+                    </div>
                 </div>
-                <div className={style.itens}>
-                    <Image src={"./globe.svg"} height={105} width={55} alt='logo' />
-                    <h1>Vestidos</h1>
+
+                <div className={`${style.container}`}>
+                    <div className={`${style.container2} flex items-center flex-col `}>
+                      <Image src={"/globe.svg"} width={75} height={100} alt='logo' className='p-1' />
+                      <div className='p-1 bg-[#3fcf9]'>
+                        <h1>Globe</h1>
+                        <h2 className=' text-white p-1 rounded-[10] bg-[#124e96]'>Ver detalhes</h2>
+                      </div>
+                    </div>
+                    <div className={`${style.container2} flex items-center flex-col `}>
+                      <Image src={"/globe.svg"} width={75} height={100} alt='logo' className='p-1' />
+                      <div className='p-1 bg-[#3fcf9]'>
+                        <h1>Globe</h1>
+                        <h2 className=' text-white p-1 rounded-[10] bg-[#124e96]'>Ver detalhes</h2>
+                      </div>
+                    </div>
+                </div>
+
+                <div className={`${style.conatiner}`}>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
                 </div>
             </div>
         </div>

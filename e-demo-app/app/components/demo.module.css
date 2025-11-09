@@ -23,13 +23,17 @@
     gap: 7px;
     margin-top: 5px;
 }
-.itens {
-    background-color: white;
+.container {
     display: grid;
-    place-items: center;
-    padding: 7px;
+    grid-template: 1fr / 1fr 1fr;
     gap: 10px;
-    grid-template: 3fr 1fr / 1fr;
-    width: 100%;
-    height: 100%;
+}
+.container2 {
+    background-color: #daeaf7;
+    padding: 10px;
+    border-radius: 10px;
+    display: grid;
+    grid-template: 75% 25% / 1fr;
+    place-items: center;
+    font-weight: bold;
 }
