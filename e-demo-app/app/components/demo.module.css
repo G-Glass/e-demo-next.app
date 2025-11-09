@@ -2,8 +2,10 @@
     padding: 45px 10px;
 }
 .demo {
-    padding: 10px;
+    padding: 5px;
     text-align: center;
+    overflow-x: hidden;
+
 }
 .titulo_colorido {
     font-family: 'Archivo';
