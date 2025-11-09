@@ -37,7 +37,7 @@ export default function Navbar() {
                                 <button className=' bi bi-search font-bold text-2xl pl-1 m text-green-800  ' ></button>
                             </form>
                         </div>
-                        <div className="p-3 m-2 bg-slate-100 rounded-[15] shadow-sm font-bold ">Camiste</div>
+                        <div className="p-3 m-2 bg-slate-100 rounded-[15] shadow-sm font-bold ">Camisetes</div>
                         <div className="p-3 m-2 bg-slate-100 rounded-[15] shadow-sm font-bold ">Calças</div>
                         <div className="p-3 m-2 bg-slate-100 rounded-[15] shadow-sm font-bold ">Sapatos</div>
                         <div className="p-3 m-2 bg-slate-100 rounded-[15] shadow-sm font-bold ">Vestidos</div>
