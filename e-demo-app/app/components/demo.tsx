@@ -20,13 +20,13 @@ export default function Demo() {
                     <Image src={"/sapato.png"} width={1000} height={110} alt='logo' />
                 </div>
                 <div>
-                    <Image src={"/ca4.png"} height={110} width={1000} alt='logo' />
+                    <Image src={"/ca4.png"} height={110} width={100} alt='logo' />
                 </div>
                 <div>
                     <Image src={"/Gemini_Generated_Image_qxdq33qxdq33qxdq.png"} width={1000} height={110} alt='logo' />
                 </div>
                 <div>
-                    <Image src={"/v1.png"} width={1000} height={110} alt='logo' />
+                    <Image src={"/v1.png"} width={100} height={110} alt='logo' />
                 </div>
                 <div>
                     <Image src={"/v2.png"} width={1000} height={110} alt='logo' />
