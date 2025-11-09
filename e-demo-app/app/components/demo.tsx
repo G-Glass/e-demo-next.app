@@ -10,7 +10,7 @@ export default function Demo() {
 
                 <div className={`${style.container} `}>
                     <div className={`${style.container2} flex items-center flex-col `}>
-                      <Image src={"/globe.svg"} width={75} height={100} alt='logo' className='p-1' />
+                      <Image src={"/next.svg"} width={75} height={100} alt='logo' className='p-1' />
                       <div className='p-1 bg-[#3fcf9]'>
                         <h1>Globe</h1>
                         <h2 className=' text-white p-1 rounded-[10] bg-[#124e96]'>Ver detalhes</h2>
@@ -25,14 +25,53 @@ export default function Demo() {
                     </div>
                 </div>
 
-                <div className={`${style.conatiner}`}>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                <div className={`${style.docker}`}>
+
+                        <div className={`${style.container2}`}>
+                            <Image src={"/globe.svg"} width={75} height={100} alt='logo' className='p-1' />
+                          <div className='p-1 bg-[#3fcf9]'>
+                            <h1>Globe</h1>
+                            <h2 className=' text-white p-1 rounded-[10] bg-[#124e96]'>Ver detalhes</h2>
+                          </div>
+                        </div>
+
+                        <div className={`${style.container2}`}>
+                            <Image src={"/globe.svg"} width={75} height={100} alt='logo' className='p-1' />
+                          <div className='p-1 bg-[#3fcf9]'>
+                            <h1>Globe</h1>
+                            <h2 className=' text-white p-1 rounded-[10] bg-[#124e96]'>Ver detalhes</h2>
+                          </div>
+                        </div>
+                        <div className={`${style.container2}`}>
+                            <Image src={"/globe.svg"} width={75} height={100} alt='logo' className='p-1' />
+                          <div className='p-1 bg-[#3fcf9]'>
+                            <h1>Globe</h1>
+                            <h2 className=' text-white p-1 rounded-[10] bg-[#124e96]'>Ver detalhes</h2>
+                          </div>
+                        </div>
+
                 </div>
 
+                <div className={`${style.container}`} >
+
+                    <div className={`${style.container2} flex items-center flex-col `}>
+                      <Image src={"/globe.svg"} width={75} height={100} alt='logo' className='p-1' />
+                      <div className='p-1 bg-[#3fcf9]'>
+                        <h1>Globe</h1>
+                        <h2 className=' text-white p-1 rounded-[10] bg-[#124e96]'>Ver detalhes</h2>
+                      </div>
+                    </div>
+
+                    <div className={`${style.container2} flex items-center flex-col `}>
+                      <Image src={"/globe.svg"} width={75} height={100} alt='logo' className='p-1' />
+                      <div className='p-1 bg-[#3fcf9]'>
+                        <h1>Globe</h1>
+                        <h2 className=' text-white p-1 rounded-[10] bg-[#124e96]'>Ver detalhes</h2>
+                      </div>
+                    </div>
+                </div>
                 <div className={`${style.container}`}>
+
                     <div className={`${style.container2} flex items-center flex-col `}>
                       <Image src={"/globe.svg"} width={75} height={100} alt='logo' className='p-1' />
                       <div className='p-1 bg-[#3fcf9]'>
@@ -40,6 +79,7 @@ export default function Demo() {
                         <h2 className=' text-white p-1 rounded-[10] bg-[#124e96]'>Ver detalhes</h2>
                       </div>
                     </div>
+
                     <div className={`${style.container2} flex items-center flex-col `}>
                       <Image src={"/globe.svg"} width={75} height={100} alt='logo' className='p-1' />
                       <div className='p-1 bg-[#3fcf9]'>
@@ -47,30 +87,34 @@ export default function Demo() {
                         <h2 className=' text-white p-1 rounded-[10] bg-[#124e96]'>Ver detalhes</h2>
                       </div>
                     </div>
+
                 </div>
 
-                <div className={`${style.container}`}>
-                    <div className={`${style.container2} flex items-center flex-col `}>
-                      <Image src={"/globe.svg"} width={75} height={100} alt='logo' className='p-1' />
-                      <div className='p-1 bg-[#3fcf9]'>
-                        <h1>Globe</h1>
-                        <h2 className=' text-white p-1 rounded-[10] bg-[#124e96]'>Ver detalhes</h2>
-                      </div>
-                    </div>
-                    <div className={`${style.container2} flex items-center flex-col `}>
-                      <Image src={"/globe.svg"} width={75} height={100} alt='logo' className='p-1' />
-                      <div className='p-1 bg-[#3fcf9]'>
-                        <h1>Globe</h1>
-                        <h2 className=' text-white p-1 rounded-[10] bg-[#124e96]'>Ver detalhes</h2>
-                      </div>
-                    </div>
-                </div>
+                <div className={`${style.docker}`}>
 
-                <div className={`${style.conatiner}`}>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <div className={`${style.container2}`}>
+                        <Image src={"/globe.svg"} width={75} height={100} alt='logo' className='p-1' />
+                      <div className='p-1 bg-[#3fcf9]'>
+                        <h1>Globe</h1>
+                        <h2 className=' text-white p-1 rounded-[10] bg-[#124e96]'>Ver detalhes</h2>
+                      </div>
+                    </div>
+
+                    <div className={`${style.container2}`}>
+                        <Image src={"/globe.svg"} width={75} height={100} alt='logo' className='p-1' />
+                      <div className='p-1 bg-[#3fcf9]'>
+                        <h1>Globe</h1>
+                        <h2 className=' text-white p-1 rounded-[10] bg-[#124e96]'>Ver detalhes</h2>
+                      </div>
+                    </div>
+
+                    <div className={`${style.container2}`}>
+                        <Image src={"/globe.svg"} width={75} height={100} alt='logo' className='p-1' />
+                      <div className='p-1 bg-[#3fcf9]'>
+                        <h1>Globe</h1>
+                        <h2 className=' text-white p-1 rounded-[10] bg-[#124e96]'>Ver detalhes</h2>
+                      </div>
+                    </div>
                 </div>
             </div>
         </div>
